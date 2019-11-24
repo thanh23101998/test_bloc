@@ -21,6 +21,8 @@ class MyBloc extends BlocBase{
   }
   void _handleLogic(data){
     _counter = _counter+2;
+    print(_counter);
+    print(_counter+1);
     AddTest.add(_counter);
   }
 
