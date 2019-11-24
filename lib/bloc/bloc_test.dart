@@ -20,7 +20,7 @@ class MyBloc extends BlocBase{
     actionController.stream.listen(_handleLogic);
   }
   void _handleLogic(data){
-    _counter = _counter+1;
+    _counter = _counter+2;
     AddTest.add(_counter);
   }
 
